@@ -33,8 +33,8 @@ export default function Home() {
     <div>
       <div className="mt-24 h-[calc(100vh-320px)]">
         <div className="flex flex-col">
-          <h1 className="text-4xl w-[40%]">“Porque no todos tienen la suerte de nacer en el paraíso”🌾</h1>
-          <Link className="bg-black flex w-max text-white px-7 py-3 rounded-full mt-6" href={'/'}>Ver Productos  +</Link>
+          <h1 className="text-2xl text-center md:text-3xl md:w-[80%] md:mx-auto lg:mx-0 lg:text-start pb-10 w-[100%] lg:text-4xl lg:w-[40%]">“Porque no todos tienen la suerte de nacer en el paraíso”🌾</h1>
+          <Link className="bg-black flex w-max mx-auto lg:mx-0 text-white px-7 py-3 rounded-full" href={'/'}>Ver Productos  +</Link>
         </div>
         
       </div>
@@ -43,7 +43,7 @@ export default function Home() {
         <div className="bg-black absolute -top-5 w-24 h-[2px]"></div>
         <div className="bg-black absolute -bottom-5 w-24 h-[2px]"></div>
       </div>
-      <div className="grid grid-cols-4 gap-7 pb-20 mt-14">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pb-20 mt-14">
         {bestSelles.map((product) => (
           <div key={product.id} className="group">
             <div  className="border-2 overflow-hidden transition-all duration-700 hover:border-black">
