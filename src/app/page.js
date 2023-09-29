@@ -52,6 +52,7 @@ export default function Home() {
               width={300}
               height={300}
               src={product.img}
+              alt=""
               />
               <div>
                 <h3>{product.title}</h3>
