@@ -45,7 +45,7 @@ export default function Home() {
       <div className=" mt-14 lg:mt-4 flex flex-col md:flex-row justify-between items-center h-max">
         <div className="flex w-[70%] lg:w-[50%] flex-col ">
           <h1 className="text-2xl text-center md:text-3xl  md:mx-auto lg:mx-0 lg:text-start pb-10 w-[100%] lg:text-4xl lg:w-[100%]">“Porque no todos tienen la suerte de nacer en el paraíso”🌾</h1>
-          <Link className="bg-black hidden lg:flex w-max mx-auto lg:mx-0 text-white px-7 py-3 rounded-full" href={'/'}>Ver Productos  +</Link>
+          <Link className="bg-black hidden lg:flex w-max mx-auto lg:mx-0 text-white px-7 py-3 rounded-full" href={'/'}>Ver Nuestro Instagram  +</Link>
         </div>
         <div className=" w-[50%]">
           <Image

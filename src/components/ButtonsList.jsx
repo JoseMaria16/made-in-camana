@@ -3,7 +3,7 @@ import React from 'react'
 
 function ButtonsList({ categories, filterCategory }) {
     return (
-        <div className='flex flex-row gap-6 items-start py-3 my-2 px-3 w-full'>
+        <div className='flex flex-wrap lg:justify-center flex-row gap-6 lg:gap-16 items-start py-3 my-2 px-5 w-full'>
             {categories.map((category, i) =>
                 <div
                     onClick={() => filterCategory(category)}
