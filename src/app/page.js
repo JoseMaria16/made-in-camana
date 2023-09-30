@@ -45,7 +45,7 @@ export default function Home() {
       <div className=" mt-14 lg:mt-4 flex flex-col md:flex-row justify-between items-center h-max">
         <div className="flex w-[70%] lg:w-[50%] flex-col ">
           <h1 className="text-2xl text-center md:text-3xl  md:mx-auto lg:mx-0 lg:text-start pb-10 w-[100%] lg:text-4xl lg:w-[100%]">“Porque no todos tienen la suerte de nacer en el paraíso”🌾</h1>
-          <Link className="bg-black flex w-max mx-auto lg:mx-0 text-white px-7 py-3 rounded-full" href={'/'}>Ver Productos  +</Link>
+          <Link className="bg-black hidden lg:flex w-max mx-auto lg:mx-0 text-white px-7 py-3 rounded-full" href={'/'}>Ver Productos  +</Link>
         </div>
         <div className=" w-[50%]">
           <Image
@@ -57,12 +57,12 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex flex-col justify-center relative items-center">
-        <h2 className="text-3xl text-center font-semibold ">!Mas Vendidos!</h2>
+      <div className="flex flex-col mt-5 md:mt-0 justify-center relative items-center">
+        <h2 className="text-3xl text-center font-semibold  ">!Mas Vendidos!</h2>
         <div className="bg-black absolute -top-5 w-24 h-[2px]"></div>
         <div className="bg-black absolute -bottom-5 w-24 h-[2px]"></div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pb-20 mt-14">
+      <div className="grid px-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pb-20 mt-14">
         {bestSelles.map((product) => (
           <div key={product.id} className="group">
             <div className="border-2 overflow-hidden transition-all duration-700 hover:border-black">
@@ -91,7 +91,7 @@ export default function Home() {
         <div className="bg-black absolute -top-5 w-24 h-[2px]"></div>
         <div className="bg-black absolute -bottom-5 w-24 h-[2px]"></div>
       </div>
-      <div className="mt-10 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 grid-rows-2 gap-0 md:gap-5">
+      <div className="mt-10 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 grid-rows-2 gap-2 px-2 md:gap-5">
 
 
 
