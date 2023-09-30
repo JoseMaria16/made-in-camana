@@ -53,6 +53,7 @@ export default function Home() {
             width={450}
             height={450}
             src={"/logo.png"}
+            alt="logo"
           />
         </div>
       </div>
@@ -66,12 +67,16 @@ export default function Home() {
           <div key={product.id} className="group">
             <div className="border-2 overflow-hidden transition-all duration-700 hover:border-black">
               {/* <img className="flex group-hover:scale-105 transition-all duration-300" src={product.img} /> */}
-              <Image
-                width={300}
-                height={300}
-                src={product.img}
-                alt=""
-              />
+              <div className='w-full  overflow-hidden relative' >
+            <Image
+              className='object-cover w-full h-full  group-hover:scale-110 transition-all z-1 duration-300'
+              alt='Mountains'
+              src={product.img}
+              // layout='fill'
+              width={479}
+              height={429}
+            />
+          </div>
               <div className="px-3 py-3">
                 <h3>{product.title}</h3>
                 <p className="flex gap-5">${product.price}<span>PEN</span></p>

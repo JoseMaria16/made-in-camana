@@ -24,7 +24,7 @@ function Header() {
                     <h2 className={` text-3xl lg:text-5xl text-center font-semibold`}>Made In Camaná</h2>
 
                 </div>
-                <nav className={`md:hidden fixed ${open ? 'left-0': '-left-[1000px]'} h-screen lg:h-max w-[70%] lg:sticky top-0 z-10 lg:w-full border-b-2 transition-all duration-300 bg-white border-gray-300 pt-5 mb-5 pb-4`}>
+                <nav className={`lg:hidden fixed ${open ? 'left-0': '-left-[1000px]'} h-screen lg:h-max md:w-[50%] w-[70%] lg:sticky top-0 z-10 lg:w-full border-b-2 transition-all duration-300 bg-white border-gray-300 pt-5 mb-5 pb-4`}>
                     <ul className='flex flex-col mt-5 lg:flex-row lg:justify-between px-10 gap-5 lg:items-center'>
                         <div onClick={() => setOpen(false)} className='bg-black w-5 h-5 rounded-full'></div>
 
