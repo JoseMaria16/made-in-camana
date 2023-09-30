@@ -96,7 +96,7 @@ function CardProduct({ id, img, title, price, category, categoryFilter,  tallas 
                         </select>
                     </div>
                 </div>
-                <button className='bg-black flex w-max mx-auto text-white py-2 px-6 rounded-full mt-2'>Cotizar Pedido</button>
+                <button className='bg-black flex w-max mx-auto text-white py-2 px-6 rounded-full mt-2 lg:mx-0'>Cotizar Pedido</button>
             </div>
         </div>
     )

@@ -10,9 +10,9 @@ function Header() {
     const [open, setOpen] = useState(false)
     return (
         <div className=''>
-            <div className='bg-black w-screen -ml-16 lg:-ml-32 h-4'></div>
+            {/* <div className='hidden md:flex bg-black w-full md:w-screen  lg:-ml-32 h-4'></div> */}
             <header className='flex flex-col   pt-6 pb-0'>
-                <div className='flex  justify-start gap-7 items-center lg:justify-center '>
+                <div className='flex justify-start  md:justify-around gap-7 items-start   lg:justify-center '>
                     <button className='pl-4 flex lg:hidden' onClick={() => setOpen(true)}>
                         {/* <img className='w-6' src="/bar.svg" alt="" /> */}
                         <Image
